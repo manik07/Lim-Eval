@@ -47,10 +47,13 @@ The full run took about 2.5 hours on Google Colab with a T4 GPU.
 |---|---|
 | `limeval_d3.py` | Complete LIM-Eval pipeline (experiments 1–5) |
 | `export_groups.py` | Exports exact and near-duplicate group IDs for every sample |
-| `groups/d3_duplicate_groups.csv` | Group assignments keyed by row index and the dataset's `hash` column; use `exact_group` or `near_group_tau0.95` as `groups` in `StratifiedGroupKFold` |
-| `results_full/` | All result files reported in the paper (see below) |
+| `d3_duplicate_groups.csv` | Group assignments keyed by row index and the dataset's `hash` column; use `exact_group` or `near_group_tau0.95` as `groups` in `StratifiedGroupKFold` |
+| `SUMMARY.txt`, `exp*.csv` | All result files reported in the paper (see below) |
 
 ### Result files
+
+Running the scripts yourself writes these files to `results_full/` and the group file to `groups/`.
+
 
 | File | Content |
 |---|---|
