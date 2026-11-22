@@ -1,0 +1,5 @@
+level,tau,raw_rows,unique_sequences,duplicate_rows,duplicate_rate,max_group_size,groups_in_dedup,dedup_samples,near_dup_rate_dedup,extra_merged_vs_exact
+exact,1.0,43876,13206,30655.0,0.6986735345063361,3308,13206,13221,,
+near,0.95,43876,13206,,,1311,6923,13221,0.5513198699039407,6283.0
+near,0.9,43876,13206,,,3322,4127,13221,0.7450268512215414,9079.0
+near,0.8,43876,13206,,,3385,2810,13221,0.8378337493381741,10396.0

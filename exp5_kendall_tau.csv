@@ -1,0 +1,16 @@
+setting_1,setting_2,kendall_tau,p_value,n_models
+A_random/default,A_random/tuned,1.0,0.0003968253968253968,7
+A_random/default,B_exact_group/default,0.8095238095238096,0.010714285714285714,7
+A_random/default,B_exact_group/tuned,0.8095238095238096,0.010714285714285714,7
+A_random/default,C_near_group/default,0.8095238095238096,0.010714285714285714,7
+A_random/default,C_near_group/tuned,0.8095238095238096,0.010714285714285714,7
+A_random/tuned,B_exact_group/default,0.8095238095238096,0.010714285714285714,7
+A_random/tuned,B_exact_group/tuned,0.8095238095238096,0.010714285714285714,7
+A_random/tuned,C_near_group/default,0.8095238095238096,0.010714285714285714,7
+A_random/tuned,C_near_group/tuned,0.8095238095238096,0.010714285714285714,7
+B_exact_group/default,B_exact_group/tuned,0.8095238095238096,0.010714285714285714,7
+B_exact_group/default,C_near_group/default,0.8095238095238096,0.010714285714285714,7
+B_exact_group/default,C_near_group/tuned,0.8095238095238096,0.010714285714285714,7
+B_exact_group/tuned,C_near_group/default,1.0,0.0003968253968253968,7
+B_exact_group/tuned,C_near_group/tuned,1.0,0.0003968253968253968,7
+C_near_group/default,C_near_group/tuned,1.0,0.0003968253968253968,7
